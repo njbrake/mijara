@@ -8,6 +8,7 @@ class Contact extends React.Component {
       <Container className="form" style={{paddingTop:'20px'}}>
         <Col xs="auto">
         <Form>
+          <h2> Contact Us </h2>
           <FormGroup>
             <Label for="exampleName">Full Name</Label>
             <Input type="name" name="name" id="exampleName" placeholder="Enter First and Last Name" size="12" />
