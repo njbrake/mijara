@@ -15,7 +15,7 @@ const Cards = (props) => {
   let skillsList = skills.map(function(skill){return <li>{skill}</li>;});
 
   return (
-    <Container  className="cards">
+    <Container fluid className="cards">
       <CardDeck style={{paddingTop: '40px', paddingBottom: '40px'}}>
         <Card body color="light">
           <CardImg top width="100%" src={CardPic1} alt="Card image cap" />
