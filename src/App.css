@@ -1,0 +1,59 @@
+
+.navigation{
+  padding-bottom: 0px !important;
+}
+
+.carousel .carousel-item {
+  height: 80vh !important;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+.contact{
+  background-image: url('./assets/contact.jpg') !important;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form{
+  background-color: rgba(255,255,255,.95) !important;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 60% !important;
+}
+
+.cards{
+  background-image: url('./assets/cardback.jpg') !important;
+  background-size: cover;
+}
+
+.btn-primary{
+    color: rgba(0,0,0,.7) !important;
+    font-weight: bold;
+    background-color: rgba(0,199,255,.4) !important;
+    border-color: rgba(0,199,255,.4) !important;
+    background: linear-gradient(-40deg, rgba(0,199,255,.4),#C7F5FF) !important;
+    box-shadow: 0 1px 0 0 #C7F5FF !important;
+}
+
+.btn-primary:hover{
+  color: rgba(0,0,0,1) !important;
+  background: linear-gradient(-40deg, rgba(0,199,255,.4),#C7F5FF) !important;
+	box-shadow: none !important;
+	margin-bottom: -1px !important;
+	margin-top: 1px !important;
+}
+
+.nav-link{
+  color: rgba(0,0,0,.8);
+}
+
+.nav-link:hover{
+  color: rgba(0,0,0,1);
+}
